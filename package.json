@@ -1,15 +1,20 @@
 {
-  "name": "design-tokens-template",
-  "version": "1.0.0",
+  "name": "unekinn-designsystemet-theme",
+  "version": "0.1.2",
   "description": "",
-  "main": "index.js",
+  "type": "module",
+  "main": "dist/theme1/light.css",
+  "files": ["dist"],
+  "exports": {
+    "./*": "./dist/*"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "designsystemet tokens -o ./css"
+    "build": "designsystemet tokens -o ./dist"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
     "@digdir/designsystemet": "^0.1.0-alpha.2"
   }
 }
