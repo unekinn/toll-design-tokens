@@ -3,18 +3,20 @@
   "version": "0.1.2",
   "description": "",
   "type": "module",
-  "main": "dist/theme1/light.css",
+  "main": "dist/toll/light.css",
   "files": ["dist"],
   "exports": {
     "./*": "./dist/*"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "designsystemet tokens -o ./dist"
+    "build": "npm run clean && designsystemet tokens -o ./dist",
+    "clean": "rimraf dist"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@digdir/designsystemet": "^0.1.0-alpha.2"
+    "@digdir/designsystemet": "^0.1.0-alpha.2",
+    "rimraf": "^5.0.7"
   }
 }

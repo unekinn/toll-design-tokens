@@ -3,13 +3,10 @@
     "primitives/globals",
     "primitives/typography/default",
     "primitives/colors/dark/global",
-    "primitives/colors/dark/theme",
-    "primitives/colors/dark/theme2",
+    "primitives/colors/dark/toll",
     "primitives/colors/light/global",
-    "primitives/colors/light/theme",
-    "primitives/colors/light/theme2",
-    "themes/theme",
-    "themes/theme2",
+    "primitives/colors/light/toll",
+    "themes/toll",
     "semantic/color",
     "semantic/style"
   ]
